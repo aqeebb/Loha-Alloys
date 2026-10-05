@@ -41,7 +41,12 @@ export default function Footer() {
           <p className="mb-3">Qatar : +974 5545 5930</p>
           
           <p className="mb-1">info@lohaalloys.com</p>
-          <p className="mb-4">shariq4328@gmail.com</p>
+          <a
+  href="mailto:shariq4328@gmail.com"
+  className="mb-4 block hover:underline"
+>
+  shariq4328@gmail.com
+</a>
           <p className="leading-relaxed">
             Loha Alloy Trading and Contracting <br></br>
             GOLDEN TOWER, 882 St., Zone 26, Bldg.no 2, floor 3, office no. 3<br></br>
@@ -51,7 +56,7 @@ DOHA, QATAR
       </div>
 
       <div className="border-t border-white/10 py-6 text-center text-sm relative z-10">
-        © {new Date().getFullYear()} Green World. All rights reserved.
+        © {new Date().getFullYear()} Loha Alloys. All rights reserved.
       </div>
     </footer>
   )
