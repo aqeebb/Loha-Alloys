@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes heroReveal {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.hero-title {
+  animation: heroReveal 0.9s ease-out;
+  animation-fill-mode: both;
+  white-space: normal;
+  word-break: break-word;
+  letter-spacing: 4px;
+}
+
+@media (max-width: 640px) {
+  .hero-title {
+    letter-spacing: 1px;
+  }
+}
+
+.hero-title span {
+  color: #f0f0ef;
+  text-shadow:
+    0 0 15px rgba(242, 183, 5, .35),
+    0 0 35px rgba(242, 183, 5, .2);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-title {
+    animation: none;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  color: #1a1a1a;
+}
+
+h1,
+h2,
+h3,
+h4,
+.font-display {
+  font-family: 'Poppins', sans-serif;
+}
