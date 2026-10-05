@@ -85,7 +85,7 @@ export default function Products() {
             </p>
 
             <p className="font-bold text-lg">
-              +974 6675 4328
+              +974 5545 5930
             </p>
           </div>
         </div>
