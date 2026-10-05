@@ -19,7 +19,7 @@ export default function Home() {
         {/* Background Video */}
         <video
           className="absolute inset-0 w-full h-full object-cover"
-          src="/hero.mp4"
+          src="/hero2.mp4"
           poster="/hero-poster.jpg"
           autoPlay
           muted
@@ -47,7 +47,7 @@ export default function Home() {
             </h1>
 
             <p className="mt-8 max-w-xl text-base md:text-lg leading-8 text-gray-200">
-              Green World delivers sustainable ferrous and non-ferrous metal recycling
+              Loha Alloys delivers sustainable ferrous and non-ferrous metal recycling
               solutions across the Middle East with quality, reliability and
               environmental responsibility.
             </p>
