@@ -22,7 +22,8 @@ const services = [
         title: "Trading",
         description:
             "We trade in non-ferrous and ferrous scrap. CRGO (Cold Rolled Grain Oriented) steel is ideal for transformers due to its high magnetic permeability and low core loss properties.",
-        image: null, // keeps the globe-icon look from the reference instead of a photo
+        image:
+            "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?q=80&w=800&auto=format&fit=crop",
     },
 ];
 

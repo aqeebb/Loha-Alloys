@@ -40,7 +40,13 @@ export default function Footer() {
           <h4 className="text-white font-display font-semibold text-lg mb-4">Contact</h4>
           <p className="mb-3">Qatar : +974 5545 5930</p>
           
-          <p className="mb-1">info@lohaalloys.com</p>
+          
+          <a
+  href="mailto:info@lohaalloys.com"
+  className="mb-4 block hover:underline"
+>
+  info@lohaalloys.com
+</a>
           <a
   href="mailto:shariq4328@gmail.com"
   className="mb-4 block hover:underline"

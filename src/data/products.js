@@ -159,11 +159,11 @@ export const products = [
   },
   {
     name: 'Stainless Steel Scrap SS 316 Turnings',
-    images: ['/ss-316-turnings-1.jpg', '/ss-316-turnings-2.jpg', '/ss-316-turnings-3.jpg'],
+    images: ['/ss-316-tur.jpeg', '/ss-316-tur-2.jpeg'],
   },
   {
     name: 'Stainless Steel Scrap SS 304 Turnings',
-    images: ['/ss-304-turnings-1.jpg', '/ss-304-turnings-2.jpg', '/ss-304-turnings-3.jpg'],
+    images: ['/ss-304-tur-1.jpeg', '/ss-304-tur-2.jpeg'],
   },
   
   {
@@ -176,7 +176,7 @@ export const products = [
   },
   {
     name: 'Stainless Steel Scrap Monel',
-    images: ['/ss-monel-1.jpeg', '/ss-monel-2.jpg'],
+    images: ['/ss-monel-1.jpeg'],
   },
 ],
   },
@@ -202,35 +202,5 @@ export const products = [
   },
 ],
   },
-  {
-    slug: 'ferrous-metal',
-    name: 'Ferrous Metal',
-     image: '/ferrous-metal.jpg',
-    
-    thumbColor: 'from-amber-700 to-amber-900',
-    description:
-      'Ferrous scrap forms the backbone of the global recycling industry, feeding directly into steel production. We process a full range of ferrous grades from heavy melting steel to structural and turning scrap.',
-    grades: [
-  {
-    name: 'Ferrous scrap HMS 1',
-    images: ['/ferrous-hms1-1.jpg', '/ferrous-hms1-2.jpg'],
-  },
-  {
-    name: 'Ferrous scrap HMS 80/20',
-    images: ['/ferrous-hms8020-1.jpg', '/ferrous-hms8020-2.jpg'],
-  },
-  {
-    name: 'Ferrous scrap HMS 2 Bundles',
-    images: ['/ferrous-hms2-1.jpg', '/ferrous-hms2-2.jpg'],
-  },
-  {
-    name: 'Ferrous scrap Plate & structural',
-    images: ['/ferrous-plate-1.jpg', '/ferrous-plate-2.jpg'],
-  },
-  {
-    name: 'Ferrous scrap Turning',
-    images: ['/ferrous-turning-1.jpg', '/ferrous-turning-2.jpg'],
-  },
-],
-  },
+ 
 ]
