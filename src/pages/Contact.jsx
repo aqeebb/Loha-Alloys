@@ -123,6 +123,12 @@ export default function Contact() {
                   >
                     📞 {MANAGER_PHONE_DISPLAY}
                   </a>
+                  <a
+                    href="mailto:info@lohaalloys.com"
+                    className="mt-1 flex items-center gap-2 text-sm font-medium text-gold hover:underline"
+                  >
+                    ✉️ info@lohaalloys.com
+                  </a>
                 </div>
 
                 

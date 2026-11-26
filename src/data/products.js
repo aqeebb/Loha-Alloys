@@ -137,7 +137,7 @@ export const products = [
   },
   {
     name: 'Lead Wheel Scrap',
-    images: ['/ld-wheel-1.jpeg', '/lead-wheel-scrap-2.jpg'],
+    images: ['/ld-scrapw-1.avif', '/ld-wheel-2.avif'],
   },
 ],
   },
