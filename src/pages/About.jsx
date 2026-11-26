@@ -94,8 +94,6 @@ export default function About() {
             <div className="mt-10 grid sm:grid-cols-2 gap-6">
 
               <div className="rounded-2xl bg-white border border-gray-200 p-6 shadow-xl transition duration-500 hover:-translate-y-2 hover:shadow-2xl">
-                <div className="text-3xl mb-3">🎯</div>
-
                 <h3 className="font-display text-xl font-bold text-forest">
                   Our Mission
                 </h3>
@@ -108,8 +106,6 @@ export default function About() {
               </div>
 
               <div className="rounded-2xl bg-white border border-gray-200 p-6 shadow-xl transition duration-500 hover:-translate-y-2 hover:shadow-2xl">
-                <div className="text-3xl mb-3">🌍</div>
-
                 <h3 className="font-display text-xl font-bold text-forest">
                   Our Vision
                 </h3>
@@ -195,37 +191,31 @@ export default function About() {
 
             {[
               {
-                icon: "♻️",
                 title: "Eco-Friendly Recycling",
                 image: "/eco.jpg",
                 desc: "Responsible recycling practices that help protect the environment.",
               },
               {
-                icon: "🏭",
                 title: "Advanced Processing",
                 image: "/advance.jpeg",
                 desc: "Modern machinery ensures maximum recovery and superior quality.",
               },
               {
-                icon: "⭐",
                 title: "Premium Quality",
                 image: "/premium.avif",
                 desc: "Strict inspection procedures guarantee consistent material standards.",
               },
               {
-                icon: "🚚",
                 title: "Fast Logistics",
                 image: "/fast.jpg",
                 desc: "Reliable collection and delivery services with timely execution.",
               },
               {
-                icon: "🤝",
                 title: "Trusted Partnership",
                 image: "/trust.avif",
                 desc: "Long-term relationships built on transparency and professionalism.",
               },
               {
-                icon: "🌍",
                 title: "Global Standards",
                 image: "/global.jpeg",
                 desc: "Delivering products that meet international industry requirements.",
@@ -247,8 +237,6 @@ export default function About() {
 
                 {/* Content */}
                 <div className="relative z-10 flex h-full flex-col justify-end p-8 text-white">
-                  <div className="mb-4 text-4xl">{item.icon}</div>
-
                   <h3 className="text-2xl font-display font-bold">
                     {item.title}
                   </h3>
